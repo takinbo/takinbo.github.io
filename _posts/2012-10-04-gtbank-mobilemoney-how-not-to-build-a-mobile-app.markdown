@@ -19,7 +19,7 @@ I was pleased to see this wasn't a USSD or SMS-based service and grabbed the app
 
 
 
-[![](http://blog.timakinbo.com/wp-content/uploads/2012/10/gtbmobilemoney-start-168x300.png)](http://blog.timakinbo.com/wp-content/uploads/2012/10/gtbmobilemoney-start.png) [![](http://blog.timakinbo.com/wp-content/uploads/2012/10/gtbmobilemoney-homescreen-168x300.png)](http://blog.timakinbo.com/wp-content/uploads/2012/10/gtbmobilemoney-homescreen.png) [![](http://blog.timakinbo.com/wp-content/uploads/2012/10/gtbmobilemoney-featurenotavailable-168x300.png)](http://blog.timakinbo.com/wp-content/uploads/2012/10/gtbmobilemoney-featurenotavailable.png)
+[![](/public/uploads/2012/10/gtbmobilemoney-start-168x300.png)](/public/uploads/2012/10/gtbmobilemoney-start.png) [![](/public/uploads/2012/10/gtbmobilemoney-homescreen-168x300.png)](/public/uploads/2012/10/gtbmobilemoney-homescreen.png) [![](/public/uploads/2012/10/gtbmobilemoney-featurenotavailable-168x300.png)](/public/uploads/2012/10/gtbmobilemoney-featurenotavailable.png)
 
 
 

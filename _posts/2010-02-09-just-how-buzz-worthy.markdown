@@ -10,7 +10,7 @@ categories:
 - General
 ---
 
-[![Google Buzz](http://blog.timakinbo.com/wp-content/uploads/2010/02/google_buzz_logo.png)](http://blog.timakinbo.com/wp-content/uploads/2010/02/google_buzz_logo.png)
+[![Google Buzz](/public/uploads/2010/02/google_buzz_logo.png)](/public/uploads/2010/02/google_buzz_logo.png)
 
 Well I'll say a lot and only time will really tell and if you're wondering what I'm talking about, it's the recently launched Google Buzz.
 

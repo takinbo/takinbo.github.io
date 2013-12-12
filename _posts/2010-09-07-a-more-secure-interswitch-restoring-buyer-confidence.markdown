@@ -16,7 +16,7 @@ tags:
 - trust
 ---
 
-[![](http://blog.timakinbo.com/wp-content/uploads/2010/09/4600003516_b7613f8b82.jpg)](http://blog.timakinbo.com/wp-content/uploads/2010/09/4600003516_b7613f8b82.jpg)Ask any regular John on the street why they don't buy things online and I bet you the odds are that 7 out of 8 (who know you can do that online) will tell you they don't trust 'the site' that's why they don't buy online.
+[![](/public/uploads/2010/09/4600003516_b7613f8b82.jpg)](/public/uploads/2010/09/4600003516_b7613f8b82.jpg)Ask any regular John on the street why they don't buy things online and I bet you the odds are that 7 out of 8 (who know you can do that online) will tell you they don't trust 'the site' that's why they don't buy online.
 
 Anyone who understands how the Insterswitch Webpay system works will find that puzzling as you don't have to 'trust' a merchant to buy from them. The only risk you're exposed to (if of course the merchant isn't a phishing site) is paying and not getting service or the product you paid for. Inspiring customer trust is a responsibility the merchant ought to take however, today's post isn't focussed on the merchant but on what Interswitch needs to do to reinvigorate the e-commerce industry in Nigeria.
 

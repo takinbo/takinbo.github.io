@@ -18,13 +18,13 @@ tags:
 
 I remember the first time I used [Google Maps](http://maps.google.com/). I was thrilled with the ability to find places and locate them on a digital map. That was my first exposure to [Geographic Information Systems](http://en.wikipedia.org/wiki/GIS). But I quickly grew out of it after a while and what was majorly because of the lack of localized information.
 
-[caption id="attachment_25" align="alignnone" width="300" caption="Victoria Island roadmap as appeared on Google Maps on 22 March, 2009"][![Roadmap as appeared on Google Maps on 22 March, 2009](http://blog.timakinbo.com/wp-content/uploads/2009/03/staticmap-roadmap-300x300.gif)](http://blog.timakinbo.com/wp-content/uploads/2009/03/staticmap-roadmap.gif)[/caption]
+[caption id="attachment_25" align="alignnone" width="300" caption="Victoria Island roadmap as appeared on Google Maps on 22 March, 2009"][![Roadmap as appeared on Google Maps on 22 March, 2009](/public/uploads/2009/03/staticmap-roadmap-300x300.gif)](/public/uploads/2009/03/staticmap-roadmap.gif)[/caption]
 
 I dabbled into Google Maps mashups and built my first Google Maps application when I was working on my final year project in the University but then I saw little use for it locally.
 
 A few months back, Google announced a community-based mapping project known as [Google Map Maker](http://www.google.com/mapmaker). Google Map Maker enables the people who live in areas that have not been well covered by Google to map their localities using the tools that Google has provided. The implication of this is that you now have the ability to map your village, if you wanted to.
 
-[caption id="attachment_26" align="alignnone" width="300" caption="Google Map Maker tile of Victoria Island as at March 22, 2009"][![Google Map Maker tile of Victoria Island as at March 22, 2009](http://blog.timakinbo.com/wp-content/uploads/2009/03/staticmap-mapmaker-roadpmap-300x300.gif)](http://blog.timakinbo.com/wp-content/uploads/2009/03/staticmap-mapmaker-roadpmap.gif)[/caption]
+[caption id="attachment_26" align="alignnone" width="300" caption="Google Map Maker tile of Victoria Island as at March 22, 2009"][![Google Map Maker tile of Victoria Island as at March 22, 2009](/public/uploads/2009/03/staticmap-mapmaker-roadpmap-300x300.gif)](/public/uploads/2009/03/staticmap-mapmaker-roadpmap.gif)[/caption]
 
 
 ### What's the motivation?

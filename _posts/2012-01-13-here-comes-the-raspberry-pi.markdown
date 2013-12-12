@@ -11,7 +11,7 @@ categories:
 - Programming
 ---
 
-[![](http://blog.timakinbo.com/wp-content/uploads/2012/01/L1030067-300x168.jpg)](http://blog.timakinbo.com/wp-content/uploads/2012/01/L1030067.jpg)I realize there's been a lot of excite about [Raspberry Pi](http://www.raspberrypi.org/) on [several](http://www.hnsearch.com/search#request/all&q=raspberry+pi) [geek](http://www.guardian.co.uk/education/2012/jan/09/raspberry-pi-computer-revolutionise-computing-schools) [channels](http://www.geek.com/articles/chips/raspberry-pi-makes-the-sub-100-pc-a-reality-20120112/) on the web. I didn't realize until I decided to check it out and now I just can't contain my excitement.
+[![](/public/uploads/2012/01/L1030067-300x168.jpg)](/public/uploads/2012/01/L1030067.jpg)I realize there's been a lot of excite about [Raspberry Pi](http://www.raspberrypi.org/) on [several](http://www.hnsearch.com/search#request/all&q=raspberry+pi) [geek](http://www.guardian.co.uk/education/2012/jan/09/raspberry-pi-computer-revolutionise-computing-schools) [channels](http://www.geek.com/articles/chips/raspberry-pi-makes-the-sub-100-pc-a-reality-20120112/) on the web. I didn't realize until I decided to check it out and now I just can't contain my excitement.
 
 According to the Raspberry Pi FAQ:
 

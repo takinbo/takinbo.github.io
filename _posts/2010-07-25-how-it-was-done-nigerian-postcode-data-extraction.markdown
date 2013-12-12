@@ -39,7 +39,7 @@ The first step in every scraping project I begin is to understand the HTTP dialo
 
 Determining the answers to these questions can be obtained by using tools that enable you view this dialog. I personally like to use [Firebug](http://getfirebug.com/) for this task.
 
-[caption id="attachment_100" align="alignnone" width="300" caption="Click for a larger version"][![HTTP Dialog](http://blog.timakinbo.com/wp-content/uploads/2010/07/http-dialog-nigeriapostcodes.com_-300x203.png)](http://blog.timakinbo.com/wp-content/uploads/2010/07/http-dialog-nigeriapostcodes.com_-e1280048721758.png)[/caption]
+[caption id="attachment_100" align="alignnone" width="300" caption="Click for a larger version"][![HTTP Dialog](/public/uploads/2010/07/http-dialog-nigeriapostcodes.com_-300x203.png)](/public/uploads/2010/07/http-dialog-nigeriapostcodes.com_-e1280048721758.png)[/caption]
 
 After you've determined the HTTP dialog, you can then write your script to do the extraction. You can write scrapers in any language provided it has support to retrieve HTTP resources and parse HTML. The parsing aspect of a scraper is usually the most interesting part because a lot of parsing libraries choke when they encounter badly formed HTML.
 

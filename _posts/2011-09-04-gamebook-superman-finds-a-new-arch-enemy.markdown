@@ -16,4 +16,4 @@ categories:
 
 [Source](http://www.dorkly.com/article/20671/gamebook-superman-finds-a-new-arch-enemy)
 
-[![](http://blog.timakinbo.com/wp-content/uploads/2011/09/superman_gamebook_humor.jpg)](http://blog.timakinbo.com/wp-content/uploads/2011/09/superman_gamebook_humor.jpg)
+[![](/public/uploads/2011/09/superman_gamebook_humor.jpg)](/public/uploads/2011/09/superman_gamebook_humor.jpg)

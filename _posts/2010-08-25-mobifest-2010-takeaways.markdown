@@ -10,7 +10,7 @@ categories:
 - General
 ---
 
-![](http://blog.timakinbo.com/wp-content/uploads/2010/08/34017_114981778549295_114973605216779_92713_8166924_n.jpg)After getting lots of requests to blog about the event that took place [last week Tuesday](http://mobilemoneyafrica.com/mobifest2010), I decided to write a few words on my takeaways from the event.
+![](/public/uploads/2010/08/34017_114981778549295_114973605216779_92713_8166924_n.jpg)After getting lots of requests to blog about the event that took place [last week Tuesday](http://mobilemoneyafrica.com/mobifest2010), I decided to write a few words on my takeaways from the event.
 
 It was great to meet with people who were in the mobile devices/mobile applications industry and even though I may not be able to blog about the presentations that took place, I will be providing links to blogs that covered the event.
 
