@@ -1,0 +1,19 @@
+---
+author: admin
+comments: true
+date: 2009-12-02 11:00:23+00:00
+layout: post
+slug: thirsty
+title: Thirsty?
+wordpress_id: 80
+categories:
+- General
+---
+
+I read something really thought provoking on [Seth Godin's blog](http://sethgodin.typepad.com/seths_blog/2009/11/thirsty.html) today and I thought it necessary to reblog it.
+
+--
+
+I've noticed that people who read a lot of blogs and a lot of books also tend to be intellectually curious, thirsty for knowledge, quicker to adopt new ideas and more likely to do important work.
+
+I wonder which comes first, the curiosity or the success?

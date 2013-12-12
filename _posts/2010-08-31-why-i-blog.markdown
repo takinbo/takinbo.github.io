@@ -1,0 +1,29 @@
+---
+author: admin
+comments: true
+date: 2010-08-31 10:44:28+00:00
+layout: post
+slug: why-i-blog
+title: Why I blog
+wordpress_id: 132
+categories:
+- Blogging
+tags:
+- Blogging
+- branding
+- Nigeria
+---
+
+I thought about a more critical title for this post but decided to take a different approach. Instead of inquiring to know why other software developers and entrepreneurs in Nigeria do not blog, I decided to share my reason for blogging.
+
+IMO blogs are pretty much an avenue for self expression, inquiry and note taking - Oh yeah that's pretty much what I use my blog for. I'm not a professional blogger so I don't have to write what you might want to read. As you would have noticed, I don't have any ads and I don't plan to (at least in the immediate future :))
+
+The reason I blog is pretty much also the reason why I use social media, the way I do. In discussing with colleagues, I sometimes stress the need to be _visible._ Why is this important?
+
+It so turns out that the more visible people are the ones people tend to think about first when they have a problem that they know they can solve. Let me ask you a simple question: If you had mobile application or a mobile web application you wanted to build, who would you think of first? Me of course! Ok that was cheap :)
+
+I've built a lot of contacts and gotten lots of referrals for business and work this way. The law of reciprocity works whether you know it or not. When you share knowledge or enrich others with what you know or what you have, you'll get compensated one way or the other for it.
+
+I started blogging late 2004. For one reason or the other, I lost the first two incarnations of my blog until I finally settled on this. When I started blogging, it was more of a me-too activity but I quickly began to get the hang of it. I didn't think (and I still don't think) I was a good writer but that didn't matter. Over time, I saw my writing skills improve and I've heard a few people comment that they enjoy my blog.
+
+I'm not saying that there aren't Nigerians blogging but what we should see is a lot more. If you can write Facebook notes, you can write a blog.
