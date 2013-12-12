@@ -19,8 +19,6 @@ Learn more at http://andhyde.com or https://github.com/mdo/hyde.
 
 */
 
-
-
 /* Body resets
 -------------------------------------------------- */
 
@@ -151,14 +149,13 @@ blockquote {
   border-left: 5px solid #eee;
 }
 blockquote p {
-  margin-bottom: 0;
+  margin-bottom: 1em;
   color: #7a7a7a;
-  text-indent: -0.4em;
 }
-blockquote p:before {
+blockquote p:first-child:before {
   content: '\201C';
 }
-blockquote p:after {
+blockquote p:last-child:after {
   content: '\201D';
 }
 
@@ -177,9 +174,6 @@ a {
   color: #222;
   text-decoration: none;
 }
-a:hover {
-  text-decoration: underline;
-}
 
 
 /* Scaffolding
@@ -188,7 +182,7 @@ a:hover {
 /* Header */
 .masthead {
   color: #fff;
-  background-color: #2a2a2a;
+  background-color: #003366;
 }
 .masthead-inner {
   padding: 20px;
@@ -219,7 +213,7 @@ a:hover {
 -------------------------------------------------- */
 
 /* Wrapper for all posts on homepage */
-.posts {
+.posts, .page {
   margin-left:  20px;
   margin-right: 20px;
 }
@@ -229,8 +223,16 @@ a:hover {
   margin-top: 40px;
   margin-bottom: 40px;
 }
+
+.post h1, .post h1 a {
+  color: #003366;
+}
+
+.post-meta {
+  margin-bottom: 10px;
+}
+
 .post-date {
-  display: block;
   margin: -10px 0 10px;
   color: #9a9a9a;
 }
@@ -319,7 +321,7 @@ a:hover {
 
   /* Center container in available real estate */
   .container {
-    margin-left: 35%;
+    margin-left: 30%;
     margin-right: 10%;
     width: 55%;
   }
@@ -330,7 +332,7 @@ a:hover {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 25%;
+    width: 20%;
     margin-bottom: 0;
   }
   .masthead-inner {
@@ -352,7 +354,7 @@ a:hover {
     margin-right: 0;
   }
   /* Increase space between posts */
-  .post {
+  .post, .page {
     margin-top: 60px;
     margin-bottom: 60px;
   }
@@ -363,4 +365,97 @@ a:hover {
     border: 1px solid #eee;
   }
 
+}
+
+
+/* Social Icons
+-------------------------------------------------- */
+
+.social-icons, .social-icons a {
+  font-weight: normal;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Mono Social Icons Font';
+    src: url('../MonoSocialIconsFont-1.10.eot');
+    src: url('../MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('../MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('../MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('../MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('../MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.symbol, a.symbol:before {
+    font-family: 'Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+a.symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 130%;
+}
+
+
+/* Author Photo
+-------------------------------------------------- */
+
+.author-photo {
+  display:none
+}
+
+@media only screen and (min-width:62.5em) {
+  .author-photo {
+    display:block;
+    width:100px;
+    height:100px;
+    margin-bottom:10px;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    border-radius:100px;
+    *zoom:1
+  }
+  .author-photo:before, .author-photo:after {
+    display:table;
+    line-height:0;
+    content:""
+  }
+  .author-photo:after {
+    clear:both
+  }
+}
+
+
+.articles-list a {
+  font-weight: normal;
+}
+
+.articles-list article {
+    clear: both;
+    margin-bottom: 0.75em;
+}
+.articles-list li {
+  list-style: none;
+  margin-left: -2.25em;
+}
+
+.articles-list .entry-date {
+  float: right;
+}
+
+#disqus_thread {
+  margin-top: 4em;
 }

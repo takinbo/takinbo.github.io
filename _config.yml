@@ -1,10 +1,47 @@
-title:        Hyde
-tagline:      "Hyde, a Jekyll theme"
-url:          http://andhyde.com
+title:        Tim Akinbo's Blog
+tagline:      "musings on everything"
+description:  "musings on entrepreneurship, the web and mobile technology"
+url:          http://timakinbo.com
 author:
-  name:       ""
-  email:      ""
+  name:       "Tim Akinbo"
+  email:      "obnika@timakinbo.com"
 markdown:     rdiscount
-permalink:    pretty
+permalink:     /:year/:month/:day/:title
 pygments:     true
+timezone:     Africa/Lagos
 paginate:     5
+
+# Owner/author information
+owner:
+  name:           Tim Akinbo
+  avatar:         tim-akinbo-photo.jpg
+  email:          obnika@timakinbo.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        takinbo
+  facebook:       takinbo
+  github:         takinbo
+  stackexchange:  
+  linkedin:       timba
+  instagram:      takinbo
+  flickr:         
+  tumblr:         
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:    https://plus.google.com/+TimAkinbo/
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   UA-126343-11
+google_verify:      
+disqus_shortname: tim-akinbos-blog
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:    
+
+links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Articles
+    url: /articles
+
+include: [".htaccess"]
+exclude: ["LICENSE.md", "README.md"]

@@ -2,24 +2,27 @@
 layout: default
 ---
 
-<div class="posts">
+<div class="posts" id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
   {% for post in paginator.posts %}
-  <div class="post">
+  <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
     <h1>
-      <a href="{{ post.url }}">
+      <a href="{{ site.url }}{{ post.url }}">
         {{ post.title }}
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <div class="post-meta">
+    <span class="post-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date_to_string }}</time>{% if post.modified %}<time datetime="{{ post.modified }}" itemprop="dateModified" />{% endif %}</span>
+    <span class="post-author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">by <span itemprop="name" class="fn"><a href="{{ site.url }}/about" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span></span>
+    </div>
 
     {{ post.content }}
-  </div>
+  </article>
   {% endfor %}
 </div>
 
 <!-- Pagination links -->
-<div class="pagination">
+<div class="pagination" role="navigation">
   {% if paginator.next_page %}
     <a href="/page{{paginator.next_page}}" class="older">Older</a>
   {% else %}

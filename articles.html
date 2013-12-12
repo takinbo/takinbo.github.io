@@ -1,0 +1,14 @@
+---
+layout: default
+title: Articles
+permalink: /articles/index.html
+---
+
+<div class="page" id="main" role="main" itemprop="mainContentOfPage">
+    <h1 class="page-title">Articles</h1>
+    <ul class="articles-list">
+    {% for post in site.posts %} 
+      <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time></span></a></article></li>
+    {% endfor %}
+    </ul>
+</div>
