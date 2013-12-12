@@ -10,7 +10,7 @@ categories:
 - General
 ---
 
-In my [previous post](http://blog.timakinbo.com/2010/10/24/most-programmers-cant-solve-this/) on this, here's my solution (written in Python):
+In my [previous post](/2010/10/24/most-programmers-cant-solve-this/) on this, here's my solution (written in Python):
 
 
 

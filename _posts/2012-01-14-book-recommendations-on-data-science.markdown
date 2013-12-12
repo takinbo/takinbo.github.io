@@ -10,7 +10,7 @@ categories:
 - Programming
 ---
 
-In my [predictions for this year](http://blog.timakinbo.com/2012/01/02/top-10-technology-predictions-for-2012/), I said that data science was going to be big. I case you're a new entrant in this field, here are a few book recommendations and they're also free (for now) if you have a Kindle. If you're in Nigeria and you are wondering how to get a Kindle, here's [my guide](http://blog.timakinbo.com/2011/12/31/heres-how-to-get-your-kindle-fire-from-nigeria/) on how to do this.
+In my [predictions for this year](/2012/01/02/top-10-technology-predictions-for-2012/), I said that data science was going to be big. I case you're a new entrant in this field, here are a few book recommendations and they're also free (for now) if you have a Kindle. If you're in Nigeria and you are wondering how to get a Kindle, here's [my guide](/2011/12/31/heres-how-to-get-your-kindle-fire-from-nigeria/) on how to do this.
 
 
 
