@@ -6,14 +6,14 @@ layout: default
   {% for post in paginator.posts %}
   <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
     <h1>
-      <a href="{{ site.url }}{{ post.url }}">
+      <a href="{{ post.url }}">
         {{ post.title }}
       </a>
     </h1>
 
     <div class="post-meta">
     <span class="post-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date_to_string }}</time>{% if post.modified %}<time datetime="{{ post.modified }}" itemprop="dateModified" />{% endif %}</span>
-    <span class="post-author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">by <span itemprop="name" class="fn"><a href="{{ site.url }}/about" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span></span>
+    <span class="post-author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">by <span itemprop="name" class="fn"><a href="/about" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span></span>
     </div>
 
     {{ post.content }}

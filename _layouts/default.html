@@ -7,7 +7,7 @@
 
     {% if site.owner.twitter %}<!-- Twitter Cards -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:image" content="{{ site.url }}/public/{{ site.owner.avatar }}">
+    <meta name="twitter:image" content="/public/{{ site.owner.avatar }}">
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta name="twitter:creator" content="@{{ site.owner.twitter }}">{% endif %}
@@ -42,27 +42,27 @@
     </title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="{{ site.url }}/public/css/hyde.css">
+    <link rel="stylesheet" href="/public/css/hyde.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700|Abril+Fatface">
 
     <!-- Icons -->
-    <link rel="apple-touch-icon" href="{{ site.url }}/public/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="57x57" href="{{ site.url }}/public/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ site.url }}/public/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ site.url }}/public/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ site.url }}/public/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="{{ site.url }}/public/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ site.url }}/public/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ site.url }}/public/apple-touch-icon-152x152.png">
-    <link rel="shortcut icon" href="{{ site.url }}/public/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/public/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/public/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/public/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/public/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/public/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/public/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/public/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/public/apple-touch-icon-152x152.png">
+    <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon">
 
     <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.url }}/atom.xml">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
   </head>
   <body itemscope itemtype="http://schema.org/WebPage">
     <header class="masthead" itemscope itemtype="http://schema.org/Person">
       <div class="masthead-inner">
-        <img src="{{ site.url }}/public/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo" itemprop="image" />
+        <img src="/public/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo" itemprop="image" />
         <h2 itemprop="name">Tim Akinbo</h2>
         <p>{{ site.description }}</p>
 
@@ -73,11 +73,11 @@
                 {% if link.external %}
                     <a href="{{ link.url }}">{{ link.title }}</a>
                 {% else %}
-                    <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+                    <a href="{{ link.url }}">{{ link.title }}</a>
                 {% endif %} 
             </li>
             {% endfor %}
-            <li><a href="{{ site.url }}/atom.xml" title="Atom/RSS feed">Feed</a></li>
+            <li><a href="/atom.xml" title="Atom/RSS feed">Feed</a></li>
           </ul>
           
           <p>&copy; 2013. {{ site.author.name }} All rights reserved.</p>

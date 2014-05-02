@@ -7,7 +7,7 @@ layout: default
     <h1>{{ page.title }}</h1>
     <div class="post-meta">
       <span class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date_to_string }}</time>{% if page.modified %}<time datetime="{{ page.modified }}" itemprop="dateModified" />{% endif %}</span>
-      <span class="post-author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">by <span itemprop="name" class="fn"><a href="{{ site.url }}/about" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span></span>
+      <span class="post-author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">by <span itemprop="name" class="fn"><a href="/about" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span></span>
     </div>
     {{ content }}
     {% if site.disqus_shortname and page.comments %}<div id="disqus_thread"></div><!-- /#disqus_thread -->{% endif %}
