@@ -7,7 +7,7 @@ class Post < Thor
   argument :title
   def new
     date = Time.now.strftime("%Y-%m-%d")
-    create_file "_posts/#{(date + '-' + title).parameterize}.md", <<-eos
+    create_file "_posts/#{(date + '-' + title).parameterize}.markdown", <<-eos
 ---
 layout: post
 title: #{title}
