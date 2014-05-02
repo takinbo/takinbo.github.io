@@ -2,8 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">{% if page.tags %}
+    <meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 
     {% if site.owner.twitter %}<!-- Twitter Cards -->
     <meta name="twitter:card" content="summary">
@@ -18,27 +18,23 @@
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:site_name" content="{{ site.title }}">{% if site.google_verify %}
 
-    {% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
-    {% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
+    <meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}{% if site.bing_verify %}
+    <meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
 
     <!-- http://t.co/dKP3o1e -->
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-
-    <meta http-equiv="cleartype" content="on">
-
-    {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
+    <meta http-equiv="cleartype" content="on">{% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
     <link rel="canonical" href="{{ canonical }}">
-    {% if site.owner.google_plus %}<link rel="author" href="{{ site.owner.google_plus }}?rel=author">{% endif %}
-
+    {% if site.owner.google_plus %}
+    <link rel="author" href="{{ site.owner.google_plus }}?rel=author">{% endif %}
     <link href="http://gmpg.org/xfn/11" rel="profile">
 
     <title>
-      {% if page.title %}{{ page.title }} &middot; {% endif %}
-      {{ site.tagline }}
+      {% if page.title %}{{ page.title }} &middot; {% endif %}{{ site.tagline }}
     </title>
 
     <!-- CSS -->
@@ -67,31 +63,23 @@
         <p>{{ site.description }}</p>
 
         <nav role="navigation" id="site-nav" class="colophon" itemscope itemtype="http://schema.org/SiteNavigationElement">
-          <ul class="colophon-links">
-            {% for link in site.links %}
-            <li>
-                {% if link.external %}
-                    <a href="{{ link.url }}">{{ link.title }}</a>
-                {% else %}
-                    <a href="{{ link.url }}">{{ link.title }}</a>
-                {% endif %} 
-            </li>
-            {% endfor %}
+          <ul class="colophon-links">{% for link in site.links %}
+            <li>{% if link.external %}<a href="{{ link.url }}">{{ link.title }}</a>{% else %}<a href="{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
             <li><a href="/atom.xml" title="Atom/RSS feed">Feed</a></li>
           </ul>
           
           <p>&copy; 2013. {{ site.author.name }} All rights reserved.</p>
 
           <div class="social-icons">
-            {% if site.owner.twitter %}<a href="https://twitter.com/{{ site.owner.twitter }}" title="{{ site.owner.name}} on Twitter" target="_blank"><span class='symbol'>circletwitterbird</span></a>{% endif %}
-            {% if site.owner.facebook %}<a href="https://www.facebook.com/{{ site.owner.facebook }}" title="{{ site.owner.name}} on Facebook" target="_blank"><span class='symbol'>circlefacebook</span></a>{% endif %}
-            {% if site.owner.google_plus %}<a href="{{ site.owner.google_plus }}" title="{{ site.owner.name}} on Google+" target="_blank"><span class='symbol'>circlegoogleplus</span></a>{% endif %}
-            {% if site.owner.linkedin %}<a href="http://www.linkedin.com/in/{{ site.owner.linkedin }}" title="{{ site.owner.name}} on LinkedIn" target="_blank"><i class="icon-linkedin icon-2x"></i></a>{% endif %}
-            {% if site.owner.stackexchange %}<a href="{{ site.owner.stackexchange }}" title="{{ site.owner.name}} on StackExchange" target="_blank"><span class='symbol'>circlestackoverflow</span></a>{% endif %}
-            {% if site.owner.instagram %}<a href="http://instagram.com/{{ site.owner.instagram }}" title="{{ site.owner.name}} on Instagram" target="_blank"><span class='symbol'>circleinstagram</span></a>{% endif %}
-            {% if site.owner.flickr %}<a href="http://www.flickr.com/photos/{{ site.owner.flickr }}" title="{{ site.owner.name}} on Flickr" target="_blank"><span class='symbol'>circleflickr</span></a>{% endif %}
-            {% if site.owner.github %}<a href="https://github.com/{{ site.owner.github }}" title="{{ site.owner.name}} on Github" target="_blank"><span class='symbol'>circlegithubalt</span></a>{% endif %}
-            {% if site.owner.tumblr %}<a href="http://{{ site.owner.tumblr }}.tumblr.com" title="{{ site.owner.name}} on Tumblr" target="_blank"><span class='symbol'>circletumblr</span></a>{% endif %}
+            {% if site.owner.twitter %}<a href="https://twitter.com/{{ site.owner.twitter }}" title="{{ site.owner.name}} on Twitter" target="_blank"><span class='symbol'>circletwitterbird</span></a>{% endif %}{% if site.owner.facebook %}
+            <a href="https://www.facebook.com/{{ site.owner.facebook }}" title="{{ site.owner.name}} on Facebook" target="_blank"><span class='symbol'>circlefacebook</span></a>{% endif %}{% if site.owner.google_plus %}
+            <a href="{{ site.owner.google_plus }}" title="{{ site.owner.name}} on Google+" target="_blank"><span class='symbol'>circlegoogleplus</span></a>{% endif %}{% if site.owner.linkedin %}
+            <a href="http://www.linkedin.com/in/{{ site.owner.linkedin }}" title="{{ site.owner.name}} on LinkedIn" target="_blank"><i class="icon-linkedin icon-2x"></i></a>{% endif %}{% if site.owner.stackexchange %}
+            <a href="{{ site.owner.stackexchange }}" title="{{ site.owner.name}} on StackExchange" target="_blank"><span class='symbol'>circlestackoverflow</span></a>{% endif %}{% if site.owner.instagram %}
+            <a href="http://instagram.com/{{ site.owner.instagram }}" title="{{ site.owner.name}} on Instagram" target="_blank"><span class='symbol'>circleinstagram</span></a>{% endif %}{% if site.owner.flickr %}
+            <a href="http://www.flickr.com/photos/{{ site.owner.flickr }}" title="{{ site.owner.name}} on Flickr" target="_blank"><span class='symbol'>circleflickr</span></a>{% endif %}{% if site.owner.github %}
+            <a href="https://github.com/{{ site.owner.github }}" title="{{ site.owner.name}} on Github" target="_blank"><span class='symbol'>circlegithubalt</span></a>{% endif %}{% if site.owner.tumblr %}
+            <a href="http://{{ site.owner.tumblr }}.tumblr.com" title="{{ site.owner.name}} on Tumblr" target="_blank"><span class='symbol'>circletumblr</span></a>{% endif %}
           </div><!-- /.social-icons -->
         </nav>
 
@@ -102,6 +90,6 @@
       {{ content }}
     </div>
 
-    {% include scripts.html %}
+{% include scripts.html %}
   </body>
 </html>
