@@ -175,6 +175,10 @@ a {
   text-decoration: none;
 }
 
+h1 a {
+  font-weight: 500;
+}
+
 
 /* Scaffolding
 -------------------------------------------------- */
