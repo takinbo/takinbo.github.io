@@ -7,7 +7,7 @@ author:
   email:      "obnika@timakinbo.com"
 markdown:     rdiscount
 permalink:     /:year/:month/:day/:title
-pygments:     true
+highlighter:  true
 timezone:     Africa/Lagos
 paginate:     5
 
